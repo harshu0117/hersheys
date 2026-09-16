@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harsh (Hanamanthagouda Policepatil) — Portfolio</title>
+  <meta name="description" content="Portfolio of Harsh (Hanamanthagouda Policepatil). AI, Machine Learning, Quantitative Finance, and Systems Telemetry." />
+  
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2309090b' rx='6'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-family='monospace' font-weight='700' font-size='15' fill='%23ffffff'%3EHP%3C/text%3E%3C/svg%3E" />
+  
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Desktop Nav (Left-aligned) -->
+      <nav class="site-nav" id="siteNav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#publications" class="nav-link">Research</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="./blog/index.html" class="nav-link">Blog</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Actions (Right-aligned) -->
+      <div class="header-actions">
+        <!-- Command Palette Trigger -->
+        <button class="btn-icon" id="cmdPaletteBtn" title="Command Palette (Ctrl+K / ⌘K)" aria-label="Command Palette">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <span class="kbd-shortcut">K</span>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button class="btn-icon" id="themeToggleBtn" title="Toggle Dark/Light Mode (T)" aria-label="Toggle Theme">
+          <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="btn-icon mobile-nav-btn" id="mobileNavToggle" aria-label="Toggle navigation menu">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+      
+      <!-- HERO / ABOUT SECTION -->
+      <section id="about" class="hero">
+        <div class="hero-header">
+          <div>
+            <h1 class="hero-name">Hi, I'm Harsh.</h1>
+            <p class="hero-handle">Hanamanthagouda Policepatil &bull; @harshu0117</p>
+          </div>
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Open for Research &amp; Engineering</span>
+          </div>
+        </div>
+
+        <p class="hero-bio">
+          I'm an undergraduate at <strong>IIT Gandhinagar</strong> and a former research intern at <strong>IISc Bengaluru</strong>.<br /><br />
+          I work at the intersection of <strong>Machine Learning</strong>, <strong>Quantitative Finance</strong>, and <strong>Data &amp; Human Analytics</strong> &mdash; essentially anywhere dynamic data meets real-world decision making and computational systems. Whether it's modeling match dynamics with Kalman filters, digging into eBPF kernel probes, or fine-tuning foundation models, I love building things that tackle complex probabilistic problems.
+        </p>
+
+        <div class="hero-links">
+          <a href="./Research_CV.pdf" target="_blank" download="Research_CV_Harsh.pdf" class="btn btn-primary" title="Download Research Curriculum Vitae">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Research CV</span>
+          </a>
+
+          <a href="./Industry_CV.pdf" target="_blank" download="Industry_CV_Harsh.pdf" class="btn btn-primary" title="Download Industry Resume">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Industry Resume</span>
+          </a>
+
+          <button class="btn btn-secondary" id="copyEmailBtn" data-email="23110126@iitgn.ac.in" title="Copy Email Address">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>Copy Email</span>
+          </button>
+
+          <a href="https://github.com/harshu0117" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>GitHub</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/hanamanthagouda-policepatil-1701h/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>LinkedIn</span>
+          </a>
+
+          <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=12337549" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>SSRN</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- EDUCATION SECTION -->
+      <section id="education">
+        <div class="section-header">
+          <h2 class="section-title">education</h2>
+        </div>
+
+        <div class="timeline-list">
+          <div class="item-card">
+            <div class="item-card-header">
+              <div>
+                <h3 class="item-title">Indian Institute of Technology Gandhinagar (IITGN)</h3>
+                <div class="item-subtitle">Dual B.Tech. in Computer Science and Engineering &bull; CPI: 8.0 / 10.0</div>
+              </div>
+              <div class="item-badge-date">2023 &mdash; 2028</div>
+            </div>
+            <div class="item-body">
+              <ul>
+                <li>Coursework focused on Operating Systems, Computer Networks, Data Structures &amp; Algorithms, and Scientific Machine Learning.</li>
+                <li>Elected <strong>Class Representative (2024&ndash;25)</strong>, serving as primary academic liaison for 40+ undergraduate students.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESEARCH EXPERIENCE SECTION -->
+      <section id="experience">
+        <div class="section-header">
+          <h2 class="section-title">experience</h2>
+        </div>
+
+        <div class="timeline-list">
+          <div class="item-card">
+            <div class="item-card-header">
+              <div>
+                <h3 class="item-title">Research Intern &mdash; Indian Institute of Science (IISc), Bengaluru</h3>
+                <div class="item-subtitle">Materials Research Centre &bull; Advisor: Prof. Abhishek Kumar Singh</div>
+              </div>
+              <div class="item-badge-date">May &mdash; Jul 2025</div>
+            </div>
+            <div class="item-body">
+              <ul>
+                <li><strong>Instruction Fine-Tuning:</strong> Fine-tuned LLaMA-3 8B with QLoRA and Unsloth on scientific instruction datasets; boosted property screening accuracy from 52.9% to <strong>90.2%</strong>.</li>
+                <li><strong>Domain-Adaptive Pre-Training (DAPT):</strong> Executed continual pre-training across scientific corpora, reducing test perplexity to <strong>9.48</strong> and integrating checkpoints onto Hugging Face.</li>
+                <li><strong>Multimodal Pipelines:</strong> Explored architectures (CAST, CLIP) bridging unstructured scientific literature with structured lattice graph representations.</li>
+              </ul>
+            </div>
+            <div class="item-links">
+              <a href="https://github.com/harshu0117/llama3_8B_finetune_unsloth" target="_blank" rel="noopener noreferrer" class="item-link">Fine-Tuning Repo &rarr;</a>
+              <a href="https://github.com/harshu0117/Materials_IISC_AKS" target="_blank" rel="noopener noreferrer" class="item-link">Corpus &amp; Checkpoints &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PUBLICATIONS SECTION -->
+      <section id="publications">
+        <div class="section-header">
+          <h2 class="section-title">publications &amp; working papers</h2>
+        </div>
+
+        <div class="timeline-list">
+          <!-- Paper 1 -->
+          <div class="item-card publication-card">
+            <div class="item-card-header">
+              <div>
+                <h3 class="item-title">Real-Time Win Probability Estimation in Twenty20 Cricket: A State-Space Approach</h3>
+                <div class="item-subtitle">
+                  <span>Co-authors: Prof. Prateek Sharma (USC), Prof. Amit Arora (IITGN)</span>
+                  <span class="sep">&bull;</span>
+                  <span class="pub-status-tag">Submitted to JQAS</span>
+                </div>
+              </div>
+              <div class="item-badge-date">2025</div>
+            </div>
+            <div class="item-body">
+              <ul>
+                <li><strong>State-Space Modeling:</strong> Formulated a continuous-discrete framework tracking latent dynamics (Batting Strength, Scoring Momentum, Match Pressure) updated recursively via <strong>Kalman filtering</strong>.</li>
+                <li><strong>Empirical Calibration:</strong> Evaluated across 1,161 IPL matches; delivered competitive predictive power and temporal coherence during rapid in-game momentum shifts.</li>
+              </ul>
+            </div>
+            <div class="item-links">
+              <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7104878" target="_blank" rel="noopener noreferrer" class="item-link">View on SSRN (ID: 7104878) &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Paper 2 -->
+          <div class="item-card publication-card">
+            <div class="item-card-header">
+              <div>
+                <h3 class="item-title">The Crowding Toll on Rented Cognition</h3>
+                <div class="item-subtitle">
+                  <span>Co-authors: Prof. Prateek Sharma (USC)</span>
+                  <span class="sep">&bull;</span>
+                  <span class="pub-status-tag">Submitted to AFA</span>
+                </div>
+              </div>
+              <div class="item-badge-date">2025</div>
+            </div>
+            <div class="item-body">
+              <ul>
+                <li><strong>Common Macro Shocks:</strong> Analyzed the systemic risks of enterprise delegation to foundation model providers; proved vendor-level common errors turn AI procurement into a common macroeconomic risk factor.</li>
+                <li><strong>Concentration &amp; Systematic Risk:</strong> Derived the equilibrium "crowding toll," showing capability gains concentrate adoption at frontier vendors, raising systematic volatility (+32%).</li>
+              </ul>
+            </div>
+            <div class="item-links">
+              <a href="https://docs.google.com/document/d/1dSqhKvSe_O2G_LEIMBGbB883poNFkDRGZbn9akO1TEY/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="item-link">Read Working Draft &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Paper 3 -->
+          <div class="item-card publication-card">
+            <div class="item-card-header">
+              <div>
+                <h3 class="item-title">Adopt, Wait, or Learn? Computational Capital and AI Investment</h3>
+                <div class="item-subtitle">
+                  <span>Co-authors: Prof. Prateek Sharma (USC)</span>
+                  <span class="sep">&bull;</span>
+                  <span class="pub-status-tag">IFC'26 (IIM Bangalore)</span>
+                </div>
+              </div>
+              <div class="item-badge-date">2025</div>
+            </div>
+            <div class="item-body">
+              <ul>
+                <li><strong>Dynamic Real Options:</strong> Formulated an investment framework evaluating corporate token consumption, organizational learning, and decentralized capital allocation.</li>
+                <li><strong>Calibration:</strong> Calibrated using enterprise GitHub production data; demonstrated decentralized allocation outperforms centralized rationing under compute scarcity.</li>
+              </ul>
+            </div>
+            <div class="item-links">
+              <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7389579" target="_blank" rel="noopener noreferrer" class="item-link">View on SSRN (ID: 7389579) &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects">
+        <div class="section-header">
+          <h2 class="section-title">projects</h2>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="systems">Systems &amp; eBPF</button>
+          <button class="filter-btn" data-filter="ml">SciML</button>
+          <button class="filter-btn" data-filter="llm">AI &amp; LLMs</button>
+        </div>
+
+        <div class="projects-grid" id="projectsContainer">
+          <!-- Project 1 -->
+          <div class="item-card project-card" data-category="systems">
+            <div class="item-card-header">
+              <div>
+                <h3 class="item-title">eBPF Real-Time Network Bandwidth Tracker</h3>
+                <div class="item-subtitle">Linux Kernel Probing &bull; C, Python, BCC, SQLite WAL, FastAPI</div>
+              </div>
+              <div class="item-badge-date">Sep '26</div>
+            </div>
+            <div class="item-body">
+              <ul>
+                <li><strong>Kernel Telemetry:</strong> Hooked Linux socket probes (<code>kprobe/tcp_sendmsg</code>, <code>tcp_cleanup_rbuf</code>, <code>udp_sendmsg</code>) with BCC for zero context-switch flow throughput tracking.</li>
+                <li><strong>Attribution &amp; Precision:</strong> Streamed metrics via perf ring buffers to a Python daemon; resolved PIDs via TTL cache and logged into SQLite WAL with 100.00% byte accuracy under 800+ Mbps workloads (&lt;0.01% CPU overhead).</li>
+              </ul>
+            </div>
+            <div class="item-links">
+              <a href="https://github.com/harshu0117/CS331_T001_PerProcess_eBPF" target="_blank" rel="noopener noreferrer" class="item-link">GitHub Repository &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="item-card project-card" data-category="ml">
+            <div class="item-card-header">
+              <div>
+                <h3 class="item-title">Scientific Machine Learning for Physical Systems (SciML)</h3>
+                <div class="item-subtitle">Deep Learning for Physical PDEs &bull; PyTorch, SciPy</div>
+              </div>
+              <div class="item-badge-date">2024 &mdash; 2025</div>
+            </div>
+            <div class="item-body">
+              <ul>
+                <li><strong>Fourier Neural Operators (FNOs):</strong> Implemented FNO in PyTorch to simulate 2D Navier-Stokes turbulence; used rollout noise injection to stabilize long horizons to 1.04% validation error.</li>
+                <li><strong>Physics-Informed Neural Networks (PINNs):</strong> Solved forward fields and inverse parameter estimation for 1D Burgers' PDE from noisy measurements with &lt;0.22% error.</li>
+              </ul>
+            </div>
+            <div class="item-links">
+              <a href="https://github.com/harshu0117/fno-navier-stokes" target="_blank" rel="noopener noreferrer" class="item-link">FNO Navier-Stokes &rarr;</a>
+              <a href="https://github.com/harshu0117/pinn-burgers-pde" target="_blank" rel="noopener noreferrer" class="item-link">PINN Burgers' PDE &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="item-card project-card" data-category="llm">
+            <div class="item-card-header">
+              <div>
+                <h3 class="item-title">Materials Screening QLoRA &amp; Domain Adaptation</h3>
+                <div class="item-subtitle">LLaMA-3 8B Instruction Fine-Tuning &amp; Continual Pre-Training &bull; Unsloth, HF</div>
+              </div>
+              <div class="item-badge-date">2025</div>
+            </div>
+            <div class="item-body">
+              <ul>
+                <li><strong>Domain Adaptation:</strong> Conducted continual pre-training on domain scientific corpora with Unsloth, achieving a test perplexity of 9.48.</li>
+                <li><strong>Instruction Tuning:</strong> Fine-tuned LLaMA-3 8B with QLoRA for property screening, raising classification accuracy from 52.9% baseline to 90.2%.</li>
+              </ul>
+            </div>
+            <div class="item-links">
+              <a href="https://github.com/harshu0117/materials-screening-qlora" target="_blank" rel="noopener noreferrer" class="item-link">Materials QLoRA &rarr;</a>
+              <a href="https://github.com/harshu0117/materials-dapt-cpt" target="_blank" rel="noopener noreferrer" class="item-link">Materials DAPT &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section id="skills">
+        <div class="section-header">
+          <h2 class="section-title">technical skills</h2>
+        </div>
+
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3 class="skill-category-title">Languages</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">C++</span>
+              <span class="skill-pill">C</span>
+              <span class="skill-pill">SQL</span>
+              <span class="skill-pill">Bash</span>
+              <span class="skill-pill">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">ML &amp; Scientific</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">PyTorch</span>
+              <span class="skill-pill">Hugging Face</span>
+              <span class="skill-pill">Scikit-Learn</span>
+              <span class="skill-pill">Unsloth</span>
+              <span class="skill-pill">NumPy</span>
+              <span class="skill-pill">SciPy</span>
+              <span class="skill-pill">Pandas</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">Systems &amp; Tools</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">Linux</span>
+              <span class="skill-pill">eBPF (BCC)</span>
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">Docker</span>
+              <span class="skill-pill">SQLite (WAL)</span>
+              <span class="skill-pill">FastAPI</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact">
+        <div class="section-header">
+          <h2 class="section-title">contact</h2>
+        </div>
+
+        <div class="hero-links" style="margin-top: 0.5rem;">
+          <a href="mailto:23110126@iitgn.ac.in" class="btn btn-primary">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>23110126@iitgn.ac.in</span>
+          </a>
+          <a href="tel:+917829580864" class="btn btn-secondary">
+            <span>+91 7829580864</span>
+          </a>
+          <a href="https://github.com/harshu0117" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/hanamanthagouda-policepatil-1701h/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=12337549" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>SSRN</span>
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <span>&copy; <span id="footerYear">2026</span> Harsh (Hanamanthagouda Policepatil)</span>
+      </div>
+      <div class="footer-links">
+        <a href="./Research_CV.pdf" target="_blank" download="Research_CV_Harsh.pdf">Research CV</a>
+        <a href="./Industry_CV.pdf" target="_blank" download="Industry_CV_Harsh.pdf">Industry Resume</a>
+        <a href="./blog/index.html">Blog</a>
+        <a href="https://github.com/harshu0117" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <span class="footer-kbd-hint"><kbd>T</kbd> theme &bull; <kbd>Ctrl</kbd>+<kbd>K</kbd></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- COMMAND PALETTE (CMD+K / CTRL+K) -->
+  <div class="palette-overlay" id="paletteOverlay">
+    <div class="palette-modal" role="dialog" aria-modal="true" aria-label="Command Palette">
+      <div class="palette-input-box">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--text-dim);">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="paletteInput" class="palette-input" placeholder="Type a section, command, or link..." autocomplete="off" />
+        <kbd>ESC</kbd>
+      </div>
+
+      <div class="palette-results" id="paletteResults">
+        <!-- Results dynamically populated -->
+      </div>
+
+      <div class="palette-footer">
+        <span><kbd>&uarr;</kbd> <kbd>&darr;</kbd> navigate</span>
+        <span><kbd>&crarr;</kbd> select</span>
+        <span><kbd>ESC</kbd> close</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="./app.js"></script>
+</body>
+</html>
